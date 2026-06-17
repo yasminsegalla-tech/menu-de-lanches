@@ -7,6 +7,7 @@ escreva("1 - hambúrguer\n")
 escreva("2 - pizza\n")
 escreva("3 - sorvete\n")
 escreva("4 - camarão\n")
+escreva("5- porção de tilapia\n")
 leia(lanche)
 
 escolha(lanche){
@@ -22,9 +23,12 @@ escolha(lanche){
   caso 4:
   escreva("4 - camarão R$60,00 (1kg)\n")
   pare
+  caso 5:
+  escreva("5 - porção de tilapia R$ 55,00\n")
+  pare
  caso contrario:
  escreva("produto nao encontrado")
-}
+} //Mostra os valores dos produtos
   }
 }
 
@@ -33,7 +37,7 @@ escolha(lanche){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 595; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
