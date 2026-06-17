@@ -5,6 +5,7 @@ programa {
 escreva("MENU\n")
 escreva("1 - hambúrguer\n")
 escreva("2 - pizza\n")
+escreva("3 - sorvete\n")
 leia(lanche)
 
 escolha(lanche){
@@ -13,6 +14,9 @@ escolha(lanche){
   pare
    caso 2:
   escreva("2 - pizza R$35,00")
+  pare
+  caso 3:
+  escreva("3 - sorvete R$12,00\n")
   pare
  caso contrario:
  escreva("produto nao encontrado")
@@ -25,7 +29,7 @@ escolha(lanche){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 252; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
